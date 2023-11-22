@@ -1,19 +1,12 @@
 {
-  "name": "bookmark-it",
+  "name": "extension-template",
   "version": "0.0.1",
-  "description": "A simple bookmark button.",
+  "description": "A simple Extension Template",
   "license": "MIT",
   "scripts": {
     "dev": "webextension-toolbox dev",
-    "build": "webextension-toolbox build",
-    "build:config": "webextension-toolbox build --config ./webext.config.js"
+    "build": "webextension-toolbox build"
   },
-  "browserslist": [
-    "chrome >= 17",
-    "edge >= 15",
-    "firefox >= 52",
-    "opera >= 15"
-  ],
   "devDependencies": {
     "webextension-toolbox": "latest"
   }
