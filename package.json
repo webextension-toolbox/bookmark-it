@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "description": "A simple Extension Template",
   "license": "MIT",
+  "browserslist": [
+    "chrome >= 17",
+    "edge >= 15",
+    "firefox >= 52",
+    "opera >= 15"
+  ],
   "scripts": {
     "dev": "webextension-toolbox dev",
     "build": "webextension-toolbox build"
